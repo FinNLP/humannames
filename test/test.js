@@ -2,11 +2,11 @@ const names = require("../index.json");
 const assert = require("assert");
 describe('Human names', function () {
 	it('Length', function () {
-		assert.equal(names.length>197000,true);
-		this.test.title = `Length: ${names.length}`;
+		assert.equal(Object.keys(names).length>197000,true);
+		this.test.title = `Length: ${Object.keys(names).length}`;
 	});
-	it('indexOf', function () {
-		assert.equal(!!~names.indexOf("Alex"),true);
-		assert.equal(!!~names.indexOf("Corvi"),true);
+	it('look up', function () {
+		assert.equal(names["Alex"],true);
+		assert.equal(names["Corvi"],true);
 	});
 });

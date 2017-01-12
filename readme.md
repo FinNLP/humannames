@@ -9,9 +9,9 @@ npm i --save humannames
 
 ```javascript
 const names = require("humannames");
-console.log(names) // WARNING: this will print out the whole array
-console.log(names.indexOf("Lui")) // gives you the index
-console.log(names.indexOf("notaname")) // -1
+console.log(names) // WARNING: this will print out the whole object
+console.log(names["Lui"]) // 1
+console.log(names["not a name"]) // undefined
 ```
 
 ### What's included
