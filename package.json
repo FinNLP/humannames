@@ -1,6 +1,6 @@
 {
   "name": "humannames",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "A list, huge one (~200K) of human male/female first/last names.",
   "main": "index.json",
   "directories": {
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/alexcorvi/humannames.git"
+    "url": "git+https://github.com/finnlp/humannames.git"
   },
   "keywords": [
     "human",
@@ -27,7 +27,7 @@
   "author": "Alex Corvi <alex@arrayy.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/alexcorvi/humannames/issues"
+    "url": "https://github.com/finnlp/humannames/issues"
   },
-  "homepage": "https://github.com/alexcorvi/humannames#readme"
+  "homepage": "https://github.com/finnlp/humannames#readme"
 }
